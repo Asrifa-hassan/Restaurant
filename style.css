@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+
+.container{
+    width: 100%;
+    height: 767px;
+    background-image: url(images/pancake.jpg);
+    background-position:center;
+    background-attachment:cover;
+    text-align: center;
+    align-items: center;
+}
+.container .content{
+    font-family:'Allura', cursive;
+    color: rgb(252, 247, 247);
+    margin:  0 auto;
+    padding: 165px;
+}
+.container .content h1{
+    line-height: 49px;
+    height:62px;
+    font-size: 83px;
+    font-weight: 5px;
+    color:rgb(9, 10, 10);
+    text-shadow:1px 1px 1px white;
+    margin-bottom: 30px;    
+}
+.container .content p{
+    height: 43px;
+    font-family:'Aleo', serif;
+    color: black;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px pink;
+    font-size: 18px;
+}
+.container .content button {
+    width:180px;
+    height: 34px;
+    background: black;
+    text-shadow: 1px 1px 2px pink;
+    display: inline-block;
+    border-color:black;
+    text-align: center;
+    color: white;
+
+}
+.container .navigation ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+ li{
+    font-family: 'Courier New', Courier, monospace;
+    display:inline-block;
+    margin: 10px 20px 10px 20px;
+}
+  li a{
+    display: block;
+    color: white;
+    padding: 18px 30px;
+    margin: 12px;
+    text-decoration: none;
+}
+ li a:hover:not(.active){
+    text-decoration: underline;
+    text-underline-offset: 13px;
+}
+ .active{
+    text-decoration:underline;
+    padding-left: 215px;
+    text-underline-offset: 13px;
+ }
+
+ 
+ 
+
